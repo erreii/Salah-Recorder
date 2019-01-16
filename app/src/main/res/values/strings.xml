@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Namaz Takip</string>
+
+    <!-- #Menu Items -->
+    <string-array name="navigation_drawer_items_array">
+        <item>Namaz</item>
+        <item>Raporlar</item>
+        <item>Ayarlar</item>
+        <item>Paylaş</item>
+    </string-array>
+
+    <!-- #Namaz Vakitleri -->
+
+    <integer-array name="namaz_vakitleri">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="namaz_vakitleri_text">
+        <item>Sabah</item>
+        <item>Öğle</item>
+        <item>İkindi</item>
+        <item>Akşam</item>
+        <item>Yatsı</item>
+    </string-array>
+
+    <string name="tarih">Tarih</string>
+    <string name="sabah">Sabah</string>
+    <string name="ogle">Öğle</string>
+    <string name="ikindi">İkindi</string>
+    <string name="aksam">Akşam</string>
+    <string name="yatsi">Yatsı</string>
+
+    <string name="noData">Veri Bulunamadı.</string>
+
+    <string name="not_prayed">Kılınmadı</string>
+    <string name="late_prayed">Geç Kıldım</string>
+    <string name="prayed">Kıldım</string>
+    <string name="mosque_prayed">Camide Kıldım</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="datepicker_tamam">Tamam</string>
+    <string name="datepicker_iptal">Iptal</string>
+
+    <string name="aylik_rapor">Aylık</string>
+    <string name="haftalik_rapor">Haftalık</string>
+    <string name="totalWeekData">Toplam</string>
+
+
+    <string name="datepicker_ileri_tarih">İleri tarih seçemezsiniz.</string>
+    <string name="namaz_takip_share">Namaz takip için bu uygulamayı indir.</string>
+
+    <!-- #Ayarlar -->
+    <string name="google_drive">Otomatik Google Drive Güncelle</string>
+    <string name="no_data_DB">Kayıt bulunamadı.</string>
+    <string name="saveDrive">Yedek Al</string>
+    <string name="saveDrive_extra">Verilerinizi Google Drive\'a yedekleyin.</string>
+    <string name="importDB">Yedek Yükle</string>
+    <string name="importDB_extra">Google Drive kullanarak yedek yükleyin.</string>
+    <string name="drive_upload_success">Dosyanız Google Drive\'da yedeklendi.</string>
+    <string name="drive_upload_fail">Dosyanız Google Drive\'a yedeklenemedi.</string>
+
+    <string name="gdrive_yedekAl_popup">Yedek Al</string>
+    <string name="gdrive_yedekAl_popup2">Verilerinizi Google Drive\'a yedekleyin.\nBu işlem veri boyutunuza göre biraz uzun sürebilir.</string>
+    <string name="gdrive_yukle_popup">Yedek Yükle</string>
+    <string name="gdrive_yukle_popup2">Google Drive kullanarak yedek yükleyin.\nBu işlem veri boyutunuza göre biraz uzun sürebilir.</string>
+    <string name="ayarlar_gdrive_ok">Tamam</string>
+    <string name="ayarlar_gdrive_cancel">İptal</string>
+
+    <string name="gdrive_dosya_acma">Dosya açılamadı.</string>
+    <string name="gdrive_dosya_yazma">Dosyaya yazilamadi.</string>
+    <string name="gdrive_klasor_error">Bu işlem için klasör seçmeniz gerekir.</string>
+    <string name="gdrive_yazma">Bilgileriniz başarılı bir şekilde kaydedildi.</string>
+    <!-- #Ayarlar -->
+
+    <string name="calendar_date_picker_result_values">%1$s-%2$s-%3$s</string>
+    <string name="calendar_date_picker_day">%1$s</string>
+
+</resources>

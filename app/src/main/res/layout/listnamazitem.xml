@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/listOneItem"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/txt_namazTimes_layOut"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_namazTimes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/material_text_headline" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nerdeKildi_layout"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:minWidth="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/select_state_txt"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="3dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/material_text_subhead"/>
+
+            <ImageView
+                android:id="@+id/nerdeKildi_img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:minWidth="70dp"
+                android:paddingRight="3dp"
+                android:src="@drawable/prayed_namaz_missed" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/selection"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="210dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/namaz_selection"
+                android:layout_width="210dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/select_camideKildi"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/select_camideKildi_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:src="@drawable/prayed_namaz_in_mosque" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/select_kildi"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/select_kildi_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:src="@drawable/prayed_namaz" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/select_gecKildi"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/select_gecKildi_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:src="@drawable/prayed_namaz_late" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

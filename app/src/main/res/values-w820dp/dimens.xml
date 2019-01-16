@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="activity_horizontal_margin">3dp</dimen>
+    <dimen name="activity_vertical_margin">3dp</dimen>
+
+    <dimen name="material_text_button">7sp</dimen>
+    <dimen name="material_text_menu">7sp</dimen>
+    <dimen name="material_text_caption">6sp</dimen>
+    <dimen name="material_text_body1">6sp</dimen>
+    <dimen name="material_text_body2">6sp</dimen>
+    <dimen name="material_text_subhead">8sp</dimen>
+    <dimen name="material_text_title">5sp</dimen>
+    <dimen name="material_text_date">5sp</dimen>
+    <dimen name="material_text_headline">6sp</dimen>
+    <dimen name="material_text_display1">8sp</dimen>
+    <dimen name="material_text_display2">12sp</dimen>
+    <dimen name="material_text_display3">15sp</dimen>
+    <dimen name="material_text_display4">28sp</dimen>
+</resources>

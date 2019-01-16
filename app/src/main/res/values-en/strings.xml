@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namaz Takip</string>
+    <string name="haftalik_rapor">Weekly</string>
+    <string name="aylik_rapor">Monthly</string>
+    <string name="totalWeekData">Total</string>
+    <string name="datepicker_tamam">Ok</string>
+    <string name="datepicker_iptal">Cancel</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Salah</item>
+        <item>Reports</item>
+        <item>Settings</item>
+        <item>Share</item>
+    </string-array>
+
+    <string-array name="namaz_vakitleri_text">
+        <item>Fajr</item>
+        <item>Dhuhr</item>
+        <item>Asr</item>
+        <item>Maghrib</item>
+        <item>Isha'a</item>
+    </string-array>
+
+    <string name="tarih">Date</string>
+    <string name="sabah">Fajr</string>
+    <string name="ogle">Dhuhr</string>
+    <string name="ikindi">Asr</string>
+    <string name="aksam">Maghrib</string>
+    <string name="yatsi">Isha\'a</string>
+
+    <string name="noData">No data found.</string>
+
+
+    <string name="not_prayed">Not Prayed</string>
+    <string name="late_prayed">Late Prayed</string>
+    <string name="prayed">Prayed</string>
+    <string name="mosque_prayed">At Mosque</string>
+
+    <!-- #Ayarlar -->
+    <string name="google_drive">Google Drive Backup</string>
+    <string name="no_data_DB">No Record.</string>
+    <string name="saveDrive">Backup</string>
+    <string name="saveDrive_extra">Save records to Google Drive.</string>
+    <string name="importDB">Recover</string>
+    <string name="importDB_extra">Upload records from Google Drive.</string>
+    <string name="drive_upload_success">Records are uploaded to Drive.</string>
+    <string name="drive_upload_fail">Google Drive Upload Error.</string>
+
+    <string name="gdrive_yedekAl_popup">Backup</string>
+    <string name="gdrive_yedekAl_popup2">Save records to Google Drive.\nThis may last long based on your data.</string>
+    <string name="gdrive_yukle_popup">Recover</string>
+    <string name="gdrive_yukle_popup2">Upload records from Google Drive.\nThis may last long based on your data.</string>
+    <string name="ayarlar_gdrive_ok">OK</string>
+    <string name="ayarlar_gdrive_cancel">Cancel</string>
+
+    <string name="gdrive_dosya_acma">File can not open.</string>
+    <string name="gdrive_dosya_yazma">File write error.</string>
+    <string name="gdrive_klasor_error">Select related folder.</string>
+    <string name="gdrive_yazma">Records are saved successfully.</string>
+    <!-- #Ayarlar -->
+
+    <string name="calendar_date_picker_result_values">%1$s-%2$s-%3$s</string>
+    <string name="calendar_date_picker_day">%1$s</string>
+
+</resources>

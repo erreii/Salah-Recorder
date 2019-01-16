@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorNavHeader">#0288D1</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="colorPrimaryHelp">#4d5ec1</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#D3D3D3</color>
+    <color name="menuDivider">#D3D3D3</color>
+    <color name="lime">#CDDC39</color>
+
+    <color name="tableRow">#03A9F4</color>
+
+    <!--Gunluk Colors Start-->
+    <color name="colorSabah">#8bc34a</color>
+    <color name="colorSabah0">#558b2f</color>
+    <color name="colorSabah1">#689f38</color>
+    <color name="colorSabah2">#7cb342</color>
+
+    <color name="colorOgle">#ffc107</color>
+    <color name="colorOgle0">#ff8f00</color>
+    <color name="colorOgle1">#ffa000</color>
+    <color name="colorOgle2">#ffb300</color>
+
+    <color name="colorIkindi">#f44336</color>
+    <color name="colorIkindi0">#c62828</color>
+    <color name="colorIkindi1">#d32f2f</color>
+    <color name="colorIkindi2">#e53935</color>
+
+    <color name="colorAksam">#009688</color>
+    <color name="colorAksam0">#00695c</color>
+    <color name="colorAksam1">#00796b</color>
+    <color name="colorAksam2">#00897b</color>
+
+    <color name="colorYatsi">#795548</color>
+    <color name="colorYatsi0">#4e342e</color>
+    <color name="colorYatsi1">#5d4037</color>
+    <color name="colorYatsi2">#6d4c41</color>
+    <!--Gunluk Colors Finish-->
+
+</resources>

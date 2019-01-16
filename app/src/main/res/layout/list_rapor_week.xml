@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/tableRow"
+    android:id="@+id/list_rapor">
+
+    <TextView
+        android:id="@+id/raporTrh"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:textColor="@color/white"
+        android:padding="5dip"
+        android:textSize="@dimen/material_text_subhead"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+    <ImageView
+        android:id="@+id/rpr_dt_sbh"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:minWidth="70dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/prayed_namaz_missed"/>
+
+    <ImageView
+        android:id="@+id/rpr_dt_ogle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:minWidth="70dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/prayed_namaz_missed"/>
+
+    <ImageView
+        android:id="@+id/rpr_dt_ikindi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:minWidth="70dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/prayed_namaz_missed"/>
+
+    <ImageView
+        android:id="@+id/rpr_dt_aksam"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:minWidth="70dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/prayed_namaz_missed"/>
+
+    <ImageView
+        android:id="@+id/rpr_dt_yatsi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:minWidth="70dp"
+        android:paddingRight="3dp"
+        android:src="@drawable/prayed_namaz_missed"/>
+    </LinearLayout>
+
+</LinearLayout>

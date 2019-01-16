@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/raporWeek_date_left"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dateleft" />
+
+        <TextView
+            android:id="@+id/raporWeek_date_txt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="Rapor_Date"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/raporWeek_date_right"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dateright" />
+    </RelativeLayout>
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/rowheaderWeekly"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/lime"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:text="@string/tarih"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorSabah"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:text="@string/sabah"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorOgle"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:text="@string/ogle"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorIkindi"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:text="@string/ikindi"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAksam"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:text="@string/aksam"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorYatsi"
+                    android:gravity="center"
+                    android:padding="5dip"
+                    android:text="@string/yatsi"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+            </TableRow>
+
+            <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:divider="@color/grey"
+            />-->
+            <TextView
+                android:id="@+id/noDataWeekly"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:gravity="center"
+                android:padding="5dip"
+                android:text="@string/noData"
+                android:textColor="@color/black"
+                android:textSize="@dimen/material_text_body1"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/listRaporWeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice"
+                android:divider="@color/grey"
+                android:dividerHeight="1dp"
+                android:minHeight="60dp" />
+
+            <LinearLayout
+                android:id="@+id/bottom_panel_weekly"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:id="@+id/allweeklyPercent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/raporTrh"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/lime"
+                            android:padding="5dip"
+                            android:gravity="center_horizontal"
+                            android:text="@string/totalWeekData"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/material_text_subhead" />
+
+                        <TextView
+                            android:id="@+id/percentSabah"
+                            android:layout_width="62dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorSabah"
+                            android:gravity="center_horizontal"
+                            android:padding="5dip"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/percentOgle"
+                            android:layout_width="62dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorOgle"
+                            android:gravity="center_horizontal"
+                            android:padding="5dip"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/percentIkindi"
+                            android:layout_width="62dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorIkindi"
+                            android:gravity="center_horizontal"
+                            android:padding="5dip"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/percentAksam"
+                            android:layout_width="62dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAksam"
+                            android:gravity="center_horizontal"
+                            android:padding="5dip"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/percentYatsi"
+                            android:layout_width="62dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorYatsi"
+                            android:gravity="center_horizontal"
+                            android:padding="5dip"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </TableLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
